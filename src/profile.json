@@ -1,0 +1,13 @@
+{
+  "login": "ma9911",
+  "name": "Mao Mao",
+  "world": "Firefly Cinema",
+  "pagesUrl": "https://ma9911.github.io/ma9911/",
+  "refreshHours": 6,
+  "palette": {
+    "background": "#26121b",
+    "ink": "#fff0dc",
+    "accent": "#ffb26b",
+    "paper": "#40212a"
+  }
+}
