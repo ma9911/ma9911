@@ -1,0 +1,45 @@
+{
+  "login": "ma9911",
+  "world": "Firefly Cinema",
+  "project": "caption-workshop",
+  "sourceHead": "b00775820ba83d53b50acd25388e5a9ac32e5ed5",
+  "runtime": "Node.js 22+",
+  "start": "node server.mjs",
+  "port": 8803,
+  "demoCheck": "node examples/profile-mission/check.mjs",
+  "existingTests": "passed",
+  "testCount": 10,
+  "demoResult": {
+    "facts": [
+      [
+        "3",
+        "subtitle cues"
+      ],
+      [
+        "+250 ms",
+        "timing shift"
+      ],
+      [
+        "7.05 s",
+        "last cue ends"
+      ]
+    ],
+    "cues": [
+      {
+        "start": 1250,
+        "end": 2250
+      },
+      {
+        "start": 3250,
+        "end": 4450
+      },
+      {
+        "start": 5250,
+        "end": 7050
+      }
+    ]
+  },
+  "zipBytes": 100534,
+  "zipSha256": "F58D32B43E197DE9D9BC412FFA5CC9386A092FC74831A157DCBBC06AFCD6789E",
+  "attribution": "Original project authors and LICENSE retained. Source download excludes .git; original history remains in the local source repository."
+}
