@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "login": "ma9911",
-  "observedAt": "2026-11-06T15:44:41.494Z",
+  "observedAt": "2026-11-09T14:12:45.244Z",
   "refreshHours": 6,
   "window": {
-    "since": "2026-10-08T00:00:00.000Z",
-    "until": "2026-11-06T15:44:41.494Z",
+    "since": "2026-10-11T00:00:00.000Z",
+    "until": "2026-11-09T14:12:45.244Z",
     "timezone": "UTC"
   },
   "scope": "Owned public repositories including forks; unique default-branch commits by all authors. Language bytes describe repositories, not skill or authorship. Public events are a limited activity feed, not visitor analytics.",
@@ -14,7 +14,7 @@
     "forks": 0,
     "stars": 0,
     "openIssuesAndPullRequests": 0,
-    "uniqueCommits30d": 16
+    "uniqueCommits30d": 17
   },
   "repositories": [
     {
@@ -31,25 +31,13 @@
     }
   ],
   "languages": {
-    "JavaScript": 37503,
-    "HTML": 11740,
+    "JavaScript": 43868,
+    "HTML": 20816,
     "Shell": 282,
     "Batchfile": 230,
     "Makefile": 60
   },
   "daily": [
-    {
-      "day": "2026-10-08",
-      "commits": 0
-    },
-    {
-      "day": "2026-10-09",
-      "commits": 0
-    },
-    {
-      "day": "2026-10-10",
-      "commits": 0
-    },
     {
       "day": "2026-10-11",
       "commits": 0
@@ -156,14 +144,27 @@
     },
     {
       "day": "2026-11-06",
-      "commits": 8
+      "commits": 9
+    },
+    {
+      "day": "2026-11-07",
+      "commits": 0
+    },
+    {
+      "day": "2026-11-08",
+      "commits": 0
+    },
+    {
+      "day": "2026-11-09",
+      "commits": 0
     }
   ],
   "publicEvents": {
     "counts": {
-      "CreateEvent": 1
+      "PushEvent": 3,
+      "CreateEvent": 2
     },
-    "observed": 1,
+    "observed": 5,
     "feedLimit": 300,
     "feedLimitReached": false,
     "maxApiLatencyHours": 6
@@ -171,9 +172,15 @@
   "sources": [
     "https://api.github.com/users/ma9911/repos?type=owner&sort=full_name&per_page=100&page=1",
     "https://api.github.com/repos/ma9911/caption-workshop/languages",
-    "https://api.github.com/repos/ma9911/caption-workshop/commits?sha=main&since=2026-10-08T00:00:00.000Z&until=2026-11-06T15:44:41.494Z&per_page=100&page=1",
+    "https://api.github.com/repos/ma9911/caption-workshop/commits?sha=main&since=2026-10-11T00:00:00.000Z&until=2026-11-09T14:12:45.244Z&per_page=100&page=1",
     "https://api.github.com/repos/ma9911/ma9911/languages",
-    "https://api.github.com/repos/ma9911/ma9911/commits?sha=main&since=2026-10-08T00:00:00.000Z&until=2026-11-06T15:44:41.494Z&per_page=100&page=1",
+    "https://api.github.com/repos/ma9911/ma9911/commits?sha=main&since=2026-10-11T00:00:00.000Z&until=2026-11-09T14:12:45.244Z&per_page=100&page=1",
     "https://api.github.com/users/ma9911/events/public?per_page=100&page=1"
-  ]
+  ],
+  "automation": {
+    "kind": "daily-statistics-snapshot",
+    "author": "ma9911",
+    "committer": "github-actions[bot]",
+    "note": "Repository history includes automated statistics updates; this is not personal contribution scoring."
+  }
 }
